@@ -1,6 +1,6 @@
 ### Links to genomes (peptide models) used for phylogenomic screens of circadian genes
 
-- *Acropora millepora* [NCBI FTP](ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/222/465/GCF_000222465.1_Adig_1.1/GCF_000222465.1_Adig_1.1_protein.faa.gz)
+- *Acropora millepora* [<a href="ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/222/465/GCF_000222465.1_Adig_1.1/GCF_000222465.1_Adig_1.1_protein.faa.gz">NCBI FTP</a>]
 - *Acyrthosiphon pisum* [GenOuest](https://bipaa.genouest.org/data/public/a_pisum/aphidbase_2.1b_pep.fasta.bz2)
 - *Amphimedon queenslandica* [Ensembl FTP](ftp://ftp.ensemblgenomes.org/pub/metazoa/release-37/fasta/amphimedon_queenslandica/pep/Amphimedon_queenslandica.Aqu1.pep.all.fa.gz)
 - *Apis mellifera* [NCBI FTP](ftp://ftp.ncbi.nih.gov/genomes/Apis_mellifera/protein/protein.fa.gz)
