@@ -21,15 +21,15 @@ ML tree inference using RAxML
 
 ### Ensure the following dependencies are in the $PATH (installed on your machine)
 
-- blastp (included in the ncbi BLAST+ suite)
+- blastp (included in the NCBI BLAST+ suite)
 - muscle
 - raxmlHPC
 - Perl Bio modules (Bio::Tools::Run::StandAloneBlast; Bio::Seq; Bio::AlignIO; Bio::DB::Fasta; Bio::SeqIO)
 
-### Input data needed:
-- blastDBs/
-Publicly available animal genome peptide models (fasta) and formatted for peptide blast (i.e., .phr, .pin, .psq, .fas, .index)
-See README in blastDBs for FTP links to genomes.
+### Input data required:
+- blastDBs
+A directory containing publicly available animal genome peptide models (fasta) which are formatted for peptide blast (i.e., .phr, .pin, .psq, .fas, .index)
+See README in blastDBs/ for FTP links to genomes.
 
 - peptide-translated transcriptome(s)
   - MeliTSAFLT.pep.fa [link]
