@@ -1,10 +1,11 @@
 # MelibeTxMiner
 ## Phylogenomics pipeline to identify circadian genes in nudibranch molluscs ###
-#### author: sabrina pankey sabrina.pankey@unh.edu
-#### developed on Ubuntu 14.04
 
 
 This repository contains the scripts needed to conduct phylogenomic screens of nudibranch transcriptome assemblies. The assemblies are available to download here[link].
+
+## Please cite:
+[citation]
 
 
 ### Step 1
