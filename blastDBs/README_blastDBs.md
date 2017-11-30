@@ -27,3 +27,4 @@
 - *Tribolium castaneum* ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/002/335/GCF_000002335.3_Tcas5.2/GCF_000002335.3_Tcas5.2_protein.faa.gz
 - *Trichoplax adhaerens* ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/150/275/GCF_000150275.1_v1.0/GCF_000150275.1_v1.0_protein.faa.gz
 - *Xenopus laevis* ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/001/663/975/GCF_001663975.1_Xenopus_laevis_v2/GCF_001663975.1_Xenopus_laevis_v2_protein.faa.gz
+
