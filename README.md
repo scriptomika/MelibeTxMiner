@@ -34,18 +34,23 @@ See README in blastDBs/ for FTP links to genomes.
 - peptide-translated transcriptome(s)
   - MeliTSAFLT.pep.fa [link]
 
-The pipeline can then be executed by calling the shell script 'blast_align_genometree.sh'
+Make the main and accessory scripts executable:
+```
+chmod +x ./scripts/*
+chmod +x blast_align_genometree.sh
+```
+The pipeline can then be executed by calling the shell script `blast_align_genometree.sh`.
 
 ###  Repository contents:
   
-#### blast_align_genometree.sh
+#### `blast_align_genometree.sh`
 Shell script to execute all steps of pipeline. Required arguments: 
 1. peptide-translated transcriptome fasta to search, 
 2. name of directory containing blast-query fasta file (baits.fa),
 3. minimum blastp e-value,
 4. name for RAxML run
 Example command usage:
-> ./blast_align_genometree.sh MeliTSAFLT.pep.fa BMAL 1e-20 treerun1
+```./blast_align_genometree.sh MeliTSAFLT.pep.fa BMAL 1e-20 treerun1```
 
 #### scripts/
 accessory scripts required within main shell script

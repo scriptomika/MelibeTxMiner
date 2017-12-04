@@ -70,7 +70,7 @@ do muscle -profile -in1 genome.deduplicated.aln -in2 $i -out temp;
 cat temp|fasta_formatter -w 0 > deduplicated.aln ;
 done
 rm   temp txtemp deduplicated.fas transcript_seqs_to_add*
-fasta2relaxedPhylip.pl  deduplicated.aln
+./scripts/fasta2relaxedPhylip.pl  deduplicated.aln
 mv deduplicated.aln.phylip ./${genedir}/
 rm deduplicated.aln
 
