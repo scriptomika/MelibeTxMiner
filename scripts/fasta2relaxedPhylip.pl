@@ -1,4 +1,4 @@
-#!/usr/local/bin/perl
+#!/usr/bin/perl 
 
 $t1 = $ARGV[0];
 
