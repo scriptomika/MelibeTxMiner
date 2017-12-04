@@ -1,6 +1,6 @@
 #!/bin/bash
 #usage: ./blast_align_genometree.sh  <peptidetranscriptome> <gene_directory> <BLAST evalue cut-off> <raxml_run_ID>
-#example: ./blast_align_genometree.sh  BMAL 1e-20 run1
+#example: ./blast_align_genometree.sh  MeliTSAFLT.pep.fa BMAL 1e-20 run1
 
 ## dependencies to install:
 # ncbi blast+
