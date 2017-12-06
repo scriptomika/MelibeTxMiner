@@ -20,7 +20,7 @@ run=$4
 if [[ ! $# -eq 4 ]] ; then
     echo '** Arguments missing **'
     echo '   --Provide directory (i.e., gene) name, an evalue cut-off for BLAST, and a unique run identifier'
-    echo '   --Example: ./blast_align_genometree.sh BMAL 1e-20 run1'
+    echo '   --Example: ./blast_align_genometree.sh peptidetranscriptome BMAL 1e-20 run1'
     echo ''
     exit 1
 fi
@@ -63,10 +63,10 @@ rm pep_matches tx_hits_pep.fas blast.out
 ### Step 3: Align transcriptome hits with genome and representative seqs
 
 #create alignment with full-length seqs, then add in fragments from assembly
-muscle -in genome.deduplicated.fas -out temp; cat temp|fasta_formatter -w 0 > genome.deduplicated.aln
+muscle -in genome.deduplicated.fas -out temp; cat temp|fasta_formatter -w 0 > deduplicated.aln
 split -l 2 txtemp transcript_seqs_to_add_in
 for i in $(ls transcript_seqs_to_add_in*); 
-do muscle -profile -in1 genome.deduplicated.aln -in2 $i -out temp;
+do muscle -profile -in1 deduplicated.aln -in2 $i -out temp;
 cat temp|fasta_formatter -w 0 > deduplicated.aln ;
 done
 rm   temp txtemp deduplicated.fas transcript_seqs_to_add*
